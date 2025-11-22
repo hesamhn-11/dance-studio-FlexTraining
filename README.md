@@ -9,7 +9,7 @@ I'm Hesam a fresh Front-end student who is trying to learn and improve in web sk
 
 ## 💬Information
 
--   🌐[Demo Project](https://hesamhn-11.github.io/dance-studio-FlexTraining/](https://hesamhn-11.github.io/Dance-studio-FlexTraining/)
+-   🌐[Demo Project][(https://hesamhn-11.github.io/dance-studio-FlexTraining/](https://hesamhn-11.github.io/Dance-studio-FlexTraining/)]
 -  💻Developed by Hesam Hassannejad
  -  🕒Date: 2025-11-21
  -  🔍Technologies Used - HTML , CSS 
