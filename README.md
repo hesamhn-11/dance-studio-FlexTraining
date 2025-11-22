@@ -1,7 +1,7 @@
 
-# Flex-Training 
+# Flex-Training (Dane studio)
 
-This is my second flex training which has a dance studio page has made with HTML & CSS
+This is my second flex training which is a dance studio page that has made with HTML & CSS
 
 
 ## 🚀      About Me
