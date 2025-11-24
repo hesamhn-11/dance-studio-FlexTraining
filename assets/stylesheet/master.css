@@ -445,18 +445,20 @@
     flex-wrap: wrap;
     margin-top: 75px;
     overflow: hidden;
-    &::after{
+
+    &::after {
         background-color: rgba(0, 0, 0, 0.288);
         content: '';
         width: 100%;
         height: 100%;
         position: absolute;
     }
+
     >video {
         width: 100%;
         height: 100%;
         scale: 1.4;
-      
+
     }
 
     >div {
@@ -485,7 +487,7 @@
 
         >p {
             font-size: 20px;
-            
+
         }
 
         >a {
@@ -520,3 +522,100 @@
 }
 
 /* end of video  */
+
+footer {
+    width: 100%;
+    background-color: black;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    padding: 70px 4%;
+
+    .row {
+        >* {
+            color: white;
+            font-size: 20px;
+            text-transform: capitalize;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+
+        >div {
+            &:first-of-type {
+                width: 50%;
+
+                >ul {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    &:first-of-type {
+                        /* margin-top: 10px; */
+                        margin-block: 30px;
+
+                        >li {
+                            width: 50%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                        }
+                    }
+
+                    &:last-of-type {
+                        margin-top: 25px;
+                        gap: 15px;
+                    }
+                }
+            }
+
+            &:last-of-type {
+                width: 50%;
+                padding-left: 50px;
+                /* border: 2px solid white; */
+
+                >h5 {
+                    font-size: 35px;
+                    /* text-align: center; */
+                }
+
+                >form {
+                    >div {
+                        border: 1px solid rgba(255, 255, 255, 0.521);
+                        width: 70%;
+                        height: 70px;
+                        padding: 2px;
+                        margin: 30px  0;
+
+                        display: flex;
+                        /* outline: 2px solid yellow; */
+                        /* outline-offset: 30px; */
+
+                        >input {
+                            width: 70%;
+                            border: none;
+                            outline: none;
+                            height: 100%;
+                            background-color: transparent;
+                            &::placeholder{
+                                padding-left: 15px;
+                                font-size: 20px;
+                            }
+                        }
+
+                        >button {
+                            width: 30%;
+                            background-color: rgba(153, 113, 113, 0.76);
+                            height: 100%;
+                            border: none;
+                            outline: none;
+                            font-size: 23px;
+                            color: white;
+                        }
+                    }
+                }
+
+                >p {
+                    font-size: 14px;
+                    /* text-align: center; */
+                }
+            }
+        }
+    }
+}
